@@ -14,3 +14,8 @@ You must have:
     4. Tomcat
     
 Now you can `import project` in `IntellJ` and building everything auto.
+
+## Usage
+
+1. Run `Tomcat`
+2. Enter browser [http://localhost:8080/api/hello](http://localhost:8080/api/hello)

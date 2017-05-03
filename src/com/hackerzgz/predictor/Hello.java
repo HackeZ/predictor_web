@@ -16,12 +16,14 @@ public class Hello {
     public String sayPlainTextHello() {
         return "Hello Jersey";
     }
+
     // This method is called if XML is request
     @GET
     @Produces(MediaType.TEXT_XML)
     public String sayXMLHello() {
         return "<?xml version=\"1.0\"?>" + "<Hello> Hello Jersey" + "</Hello>";
     }
+
     // This method is called if HTML is request
     @GET
     @Produces(MediaType.TEXT_HTML)
